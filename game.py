@@ -17,6 +17,11 @@ def new_game():
         
         question_num+=1
     display_score(guesses,score)
+    play_again()
+
+   
+
+
 
 
 #-----------------------------
@@ -48,7 +53,13 @@ def display_score(gues,score):
 #------------------------------
 
 def play_again():
-    pass
+     again=input('Do you want to play the game again(Y/N) :').upper()
+
+     if again=='Y':
+         new_game()
+     else:
+         print('thanks for playing')
+    
 
 
 
