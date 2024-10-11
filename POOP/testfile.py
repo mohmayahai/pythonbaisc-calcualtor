@@ -8,4 +8,14 @@ print(car_1.year)
 print(car_1.model)
 car_1.stop()
 car_1.drive()
+print(car_1.wheels)
+
+
+Car.wheels=6
+
+print(car_1.wheels)
+
+
+
+
 
